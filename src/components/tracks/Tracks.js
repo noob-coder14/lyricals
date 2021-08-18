@@ -7,6 +7,11 @@ class Tracks extends Component {
             <Consumer>
                 {value=>{
                     console.log(value);
+                    return (
+                    <div className="row">
+
+                    </div>
+                    )
                 }}
             </Consumer>
         )
