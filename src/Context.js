@@ -1,4 +1,4 @@
-import React,{Component} from 'react'
+import React, { useState, useEffect } from "react";
 import axios from 'axios'
 
 export const SongContext = React.createContext();
