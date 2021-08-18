@@ -3,11 +3,11 @@ import './App.css';
 import Navbar from "./components/layout/Navbar";
 import Home from "./components/layout/Home";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { ProviderComp } from './Context';
+import { ContextController } from './Context';
 
 function App() {
   return (
-    <ProviderComp>
+    <ContextController>
       <Router>
         <>
           <Navbar/>
@@ -18,7 +18,7 @@ function App() {
           </div>
         </>
       </Router>
-    </ProviderComp>
+    </ContextController>
   );
 }
 
