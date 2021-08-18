@@ -45,7 +45,7 @@ const Search = () => {
             onChange={onChange}
           />
         </div>
-        <button className="btn btn-primary btn-lg btn-block mb-5" type="submit">
+        <button className="btn btn-primary btn-lg btn-block mb-5 mt-3" type="submit">
           Get Track Lyrics
         </button>
       </form>
